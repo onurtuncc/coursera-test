@@ -2,34 +2,39 @@
 <html>
 <head>
 	<title>Hello world</title>
+
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <h1>Books</h1>
-<div>
-My favourite writers and their books:
+
+<p id="fav">My favourite writers and their books</p>
 <p><a href="#Zweig">Click to go to S. Zweig</a></p>
 <p><a href="#Sapkowski">Click to go to A. Sapkowski</a></p>
-<ol>
-	<li id="Zweig">Stefan Zweig
-		<ol>
-			<li>Amok koşucusu</li>
-			<li>Satranç</li>
-			<li>Olağanüstü bir gece</li>
-		</ol>
-
-	</li>
-
-	<li id="Sapkowski">Andrzej Sapkowski
-		<ol>
-			<li>Kader Kılıcı</li>
-			<li>Nefret Çağı</li>
-			<li>Gölün Hanımı</li>
-		</ol>
-	</li>
-</ol>
+<div id="dis">
+	<div class="box" id="Zweig">
+		Stefan Zweig
+		<div id="content">
+			<ul>
+				<li>Amok koşucusu</li>
+				<li>Satranç</li>
+				<li>Olağanüstü bir gece</li>
+			</ul>
+		</div>
+	</div>
+	<div class="box" id="Sapkowski">
+		Andrzej Sapkowski
+		<div id="content">
+			<ul>
+				<li>Kader Kılıcı</li>
+				<li>Nefret Çağı</li>
+				<li>Gölün Hanımı</li>
+			</ul>
+		</div>
+	</div>
+</div>
 <p>Onur Tunç &copy; Copyright</p>
 <a href="https://www.youtube.com/watch?v=VnHgZ3JF8pA&list=RDVnHgZ3JF8pA&start_radio=1" target="_blank" title="best song ever">Click here to listen best song ever</a>
-</div>
 <div>
 	
 	<img src="corona.jpeg" width="400" height="300">

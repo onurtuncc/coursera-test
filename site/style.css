@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	
+	background-image: url("witcher.jpg");
+	background-repeat: no-repeat;
+
+}
+#dis {
+	margin: 10px;
+	height: 200px;
+	padding: 20px;
+	background-color: grey;
+}
+
+
+.box{
+	
+	width: 50%;
+	height: 100%;
+	padding: 20px;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	border: 5px solid black;
+	
+	
+
+}
+#Sapkowski{
+	float: right;
+}
+#Zweig{
+	float: left;
+}
+
+#content{
+
+	background-color: green;
+	color: black;
+	text-align: left;
+	margin-left: 30px;
+	margin-right: 30px;
+
+
+}
+#fav {
+	text-align: center;
+	font-size: 30px;
+	font-family: "Courier New", Courier, monospace;
+	font-style: italic;
+	font-weight: 600;
+	text-transform: uppercase;
+
+
+}
